@@ -1,3 +1,5 @@
+# rust-cli-tools
+
 To compile all tools:
   cargo build --release
 
@@ -12,4 +14,3 @@ Scan directory:  cargo run --bin dir_scanner -- /path/to/dir
 Monitor system:  cargo run --bin sys_monitor -- /path/to/watch
 Run tasks:  cargo run --bin task_runner -- "echo Hello" "sleep 1"
      
-# rust-cli-tools
